@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --netflix-red: #e50914;
+  --netflix-red-hover: #f40612;
+  --bg-color: #0c0c0c;
+  --text-primary: #fff;
+  --text-secondary: #a3a3a3;
+  --base-gradient-start: rgba(0, 0, 0, 0.85);
+  --base-gradient-mid: rgba(0, 0, 0, 0.5);
+  --base-gradient-end: rgba(0, 0, 0, 0.1);
+  --nav-bg: rgba(12, 12, 12, 0.7);
+  --input-bg: rgba(0, 0, 0, 0.5);
+  --button-hover: rgba(255, 255, 255, 0.1);
+  --overlay-bg: rgba(0, 0, 0, 0.9);
+  --form-bg: rgba(0, 0, 0, 0.75);
+  --plan-bg: rgba(30, 30, 30, 0.8);
+  --title-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+  --fade-mid: rgba(12, 12, 12, 0.5);
+}
+
+.light {
+  --bg-color: #f8f9fa;
+  --text-primary: #111;
+  --text-secondary: #555;
+  --base-gradient-start: rgba(248, 249, 250, 0.65);
+  --base-gradient-mid: rgba(248, 249, 250, 0.25);
+  --base-gradient-end: rgba(248, 249, 250, 0.05);
+  --nav-bg: rgba(255, 255, 255, 0.7);
+  --input-bg: rgba(255, 255, 255, 0.5);
+  --button-hover: rgba(0, 0, 0, 0.05);
+  --overlay-bg: rgba(245, 245, 245, 0.9);
+  --form-bg: rgba(255, 255, 255, 0.75);
+  --plan-bg: rgba(250, 250, 250, 0.8);
+  --title-shadow: 0 4px 15px rgba(255, 255, 255, 0.6);
+  --fade-mid: rgba(248, 249, 250, 0.61);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', "Netflix Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h2 {
+  margin-left: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+button {
+  font-family: inherit;
+}
