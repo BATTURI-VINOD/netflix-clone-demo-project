@@ -81,7 +81,7 @@ If you want it even closer to Netflix (like real genre rows using OMDb workaroun
    ```
 
 3. Get a OMDB API key:
-   - Go to [OMDB](https://www.themoviedb.org/)
+   - Go to [OMDB](https://www.omdbapi.com/)
    - Create an account
    - Go to Settings > API
    - Request an API key
